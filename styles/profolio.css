@@ -31,6 +31,9 @@
 }
 header {
     background-color:#FFF8F3;
+    background:url("../kl.jpg"),url("../lj.jpg");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
     padding-top: 49px;
 }
 nav {
@@ -57,6 +60,38 @@ nav.menu a{
     
     
 }
-
-
-
+#banner {
+    /* border: 1px solid red; */
+    margin:47px 38px 0 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#banner .banner-content{
+    max-width: 499px;
+}
+#banner .banner-content h2{
+    font-size: 44px;
+    font-weight: 499px;
+    color: #474747;
+    margin-bottom: 4px;
+}
+#banner .banner-content h1{
+    font-size: 84px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+    margin: 20px ;
+    
+}
+#banner .banner-content p{
+    font-size: 18px;
+    color: #474747;
+    line-height: 30px;
+    margin-bottom: 30px;
+    text-decoration-color: black;
+}
+#banner .banner image{
+    max-width: 554px;
+    vertical-align: middle;
+}
